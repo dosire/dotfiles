@@ -4,10 +4,10 @@
 [hub]
         protocol = https
 [user]
-        name = AUTHORNAME
-        email = AUTHOREMAIL
+        name = Sytse Sijbrandij
+        email = sytse@dosire.com
 [credential]
-        helper = GIT_CREDENTIAL_HELPER
+        helper = osxkeychain
 [alias]
         co = checkout
         promote = !$ZSH/bin/git-promote
