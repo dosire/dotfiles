@@ -18,7 +18,3 @@ alias gb='git branch'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias grm="git status | grep deleted | awk '{\$1=\$2=\"\"; print \$0}' | \
            perl -pe 's/^[ \t]*//' | sed 's/ /\\\\ /g' | xargs git rm"
-
-# p8 his aliases
-hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-tree = log --graph --simplify-by-decoration --pretty=format:'%d' --all
