@@ -82,4 +82,3 @@ precmd() {
   set_prompt
 }
 
-cd Repos
