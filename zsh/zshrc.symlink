@@ -1,3 +1,6 @@
+# Add rbenv to path
+export PATH="$HOME/.rbenv/bin:$PATH"
+
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
 
